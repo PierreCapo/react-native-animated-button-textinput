@@ -124,7 +124,7 @@ export class AnimatedButtonTextInput extends React.Component<IProps> {
                 ]
               }}
             >
-              {this.props.collapsedContent() || <Text>Click me</Text>}
+              {this.props.collapsedContent() || <Text>Notify me</Text>}
             </Animated.View>
             <Animated.View
               style={{
@@ -139,6 +139,7 @@ export class AnimatedButtonTextInput extends React.Component<IProps> {
             >
               <TextInput
                 style={{ flex: 1, marginLeft: 20 }}
+                autoCapitalize={"none"}
                 placeholder={"Email"}
                 {...this.props.textInputProps}
               />

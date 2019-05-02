@@ -64,7 +64,7 @@ var AnimatedButtonTextInput = /** @class */ (function (_super) {
                 { scaleX: this.collapsedContentScale },
                 { scaleY: this.collapsedContentScale }
             ] })}>
-              {this.props.collapsedContent() || <Text>Click me</Text>}
+              {this.props.collapsedContent() || <Text>Notify me</Text>}
             </Animated.View>
             <Animated.View style={{
             position: "absolute",
@@ -75,7 +75,7 @@ var AnimatedButtonTextInput = /** @class */ (function (_super) {
                 { scaleY: this.expandedContentScale }
             ]
         }}>
-              <TextInput style={{ flex: 1, marginLeft: 20 }} placeholder={"Email"} {...this.props.textInputProps}/>
+              <TextInput style={{ flex: 1, marginLeft: 20 }} autoCapitalize={"none"} placeholder={"Email"} {...this.props.textInputProps}/>
               <TouchableOpacity style={{
             height: this.props.collapsedHeight - 8,
             paddingHorizontal: 10,

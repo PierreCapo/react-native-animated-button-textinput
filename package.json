@@ -6,6 +6,10 @@
   "license": "MIT",
   "peerDependencies": {
     "react": "16.8.3",
-    "react-native": "0.59.5"
-  }
+    "react-native": "0.59.5",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/PierreCapo/react-native-animated-button-textinput.git"
+  },
 }
