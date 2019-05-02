@@ -1,0 +1,11 @@
+{
+  "name": "react-native-animated-button-textinput",
+  "version": "0.0.1",
+  "description": "A react-native button that switches to text-input when pressed",
+  "main": "./dist/index.js",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "16.8.3",
+    "react-native": "0.59.5"
+  }
+}
