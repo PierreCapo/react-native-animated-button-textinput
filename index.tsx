@@ -92,8 +92,6 @@ export class AnimatedButtonTextInput extends React.Component<IProps> {
     return (
       <View
         style={{
-          backgroundColor: "#df7879",
-          height: "100%",
           justifyContent: "center",
           alignItems: "center"
         }}
@@ -147,7 +145,6 @@ export class AnimatedButtonTextInput extends React.Component<IProps> {
                 style={{
                   height: this.props.collapsedHeight - 8,
                   paddingHorizontal: 10,
-                  backgroundColor: "#df7879",
                   borderRadius: 20,
                   justifyContent: "center",
                   alignItems: "center",

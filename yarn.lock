@@ -2,6 +2,13 @@
 # yarn lockfile v1
 
 
+react-native-animated-button-textinput@^0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/react-native-animated-button-textinput/-/react-native-animated-button-textinput-0.0.3.tgz#cf6317dfe29b38fb49c30dbaecd6bcf7e291f549"
+  integrity sha512-D1G1Zm1WAbl4gYc0pvML3ExIOSFeMVZz0zrc1c/23/hS4thwYOjiNwy49GbAd9cDPusbzjFFlRFas/fcaVYSJg==
+  dependencies:
+    tslib "^1.9.3"
+
 tslib@^1.9.3:
   version "1.9.3"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.9.3.tgz#d7e4dd79245d85428c4d7e4822a79917954ca286"

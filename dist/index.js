@@ -53,8 +53,6 @@ var AnimatedButtonTextInput = /** @class */ (function (_super) {
         var collapsedPropsStyle = (this.props.collapsedProps && this.props.collapsedProps.style) || {};
         var componentPropsStyle = (this.props.componentProps && this.props.componentProps.style) || {};
         return (<View style={{
-            backgroundColor: "#df7879",
-            height: "100%",
             justifyContent: "center",
             alignItems: "center"
         }}>
@@ -79,7 +77,6 @@ var AnimatedButtonTextInput = /** @class */ (function (_super) {
               <TouchableOpacity style={{
             height: this.props.collapsedHeight - 8,
             paddingHorizontal: 10,
-            backgroundColor: "#df7879",
             borderRadius: 20,
             justifyContent: "center",
             alignItems: "center",
